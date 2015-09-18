@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)btnMenuPressed:(id)sender;
 
 @end
 

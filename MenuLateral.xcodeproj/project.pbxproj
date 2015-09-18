@@ -14,6 +14,13 @@
 		F27F3A5B1BA793B80075A314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27F3A5A1BA793B80075A314 /* Images.xcassets */; };
 		F27F3A5E1BA793B80075A314 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F27F3A5C1BA793B80075A314 /* LaunchScreen.xib */; };
 		F27F3A6A1BA793B80075A314 /* MenuLateralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F27F3A691BA793B80075A314 /* MenuLateralTests.m */; };
+		F28406461BAB855900F78331 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28406451BAB855900F78331 /* ECSlidingViewController.m */; };
+		F28406491BAB856900F78331 /* InitialSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28406481BAB856900F78331 /* InitialSlidingViewController.m */; };
+		F284064C1BAB858D00F78331 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F284064B1BAB858D00F78331 /* CoreGraphics.framework */; };
+		F284064E1BAB859F00F78331 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F284064D1BAB859F00F78331 /* QuartzCore.framework */; };
+		F28406521BABAE1E00F78331 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = F28406511BABAE1E00F78331 /* UIImage+ImageWithUIView.m */; };
+		F28406551BABAFEF00F78331 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28406541BABAFEF00F78331 /* MenuController.m */; };
+		F28406581BABB08A00F78331 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F28406571BABB08A00F78331 /* MenuCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,18 @@
 		F27F3A631BA793B80075A314 /* MenuLateralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuLateralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27F3A681BA793B80075A314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F27F3A691BA793B80075A314 /* MenuLateralTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuLateralTests.m; sourceTree = "<group>"; };
+		F28406441BAB855900F78331 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		F28406451BAB855900F78331 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		F28406471BAB856900F78331 /* InitialSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialSlidingViewController.h; sourceTree = "<group>"; };
+		F28406481BAB856900F78331 /* InitialSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialSlidingViewController.m; sourceTree = "<group>"; };
+		F284064B1BAB858D00F78331 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F284064D1BAB859F00F78331 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F28406501BABAE1E00F78331 /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		F28406511BABAE1E00F78331 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		F28406531BABAFEF00F78331 /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		F28406541BABAFEF00F78331 /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
+		F28406561BABB08A00F78331 /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		F28406571BABB08A00F78331 /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F284064E1BAB859F00F78331 /* QuartzCore.framework in Frameworks */,
+				F284064C1BAB858D00F78331 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 		F27F3A4C1BA793B80075A314 /* MenuLateral */ = {
 			isa = PBXGroup;
 			children = (
+				F284064F1BAB85BD00F78331 /* Libreries */,
+				F284064A1BAB856C00F78331 /* SlidingMenu */,
 				F27F3A511BA793B80075A314 /* AppDelegate.h */,
 				F27F3A521BA793B80075A314 /* AppDelegate.m */,
 				F27F3A541BA793B80075A314 /* ViewController.h */,
@@ -89,6 +112,10 @@
 				F27F3A5A1BA793B80075A314 /* Images.xcassets */,
 				F27F3A5C1BA793B80075A314 /* LaunchScreen.xib */,
 				F27F3A4D1BA793B80075A314 /* Supporting Files */,
+				F28406531BABAFEF00F78331 /* MenuController.h */,
+				F28406541BABAFEF00F78331 /* MenuController.m */,
+				F28406561BABB08A00F78331 /* MenuCell.h */,
+				F28406571BABB08A00F78331 /* MenuCell.m */,
 			);
 			path = MenuLateral;
 			sourceTree = "<group>";
@@ -117,6 +144,28 @@
 				F27F3A681BA793B80075A314 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F284064A1BAB856C00F78331 /* SlidingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F28406501BABAE1E00F78331 /* UIImage+ImageWithUIView.h */,
+				F28406511BABAE1E00F78331 /* UIImage+ImageWithUIView.m */,
+				F28406471BAB856900F78331 /* InitialSlidingViewController.h */,
+				F28406481BAB856900F78331 /* InitialSlidingViewController.m */,
+				F28406441BAB855900F78331 /* ECSlidingViewController.h */,
+				F28406451BAB855900F78331 /* ECSlidingViewController.m */,
+			);
+			name = SlidingMenu;
+			sourceTree = "<group>";
+		};
+		F284064F1BAB85BD00F78331 /* Libreries */ = {
+			isa = PBXGroup;
+			children = (
+				F284064D1BAB859F00F78331 /* QuartzCore.framework */,
+				F284064B1BAB858D00F78331 /* CoreGraphics.framework */,
+			);
+			name = Libreries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28406551BABAFEF00F78331 /* MenuController.m in Sources */,
+				F28406521BABAE1E00F78331 /* UIImage+ImageWithUIView.m in Sources */,
+				F28406581BABB08A00F78331 /* MenuCell.m in Sources */,
 				F27F3A561BA793B80075A314 /* ViewController.m in Sources */,
+				F28406461BAB855900F78331 /* ECSlidingViewController.m in Sources */,
+				F28406491BAB856900F78331 /* InitialSlidingViewController.m in Sources */,
 				F27F3A531BA793B80075A314 /* AppDelegate.m in Sources */,
 				F27F3A501BA793B80075A314 /* main.m in Sources */,
 			);
@@ -416,6 +470,7 @@
 				F27F3A6F1BA793B80075A314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F27F3A701BA793B80075A314 /* Build configuration list for PBXNativeTarget "MenuLateralTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +479,7 @@
 				F27F3A721BA793B80075A314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
